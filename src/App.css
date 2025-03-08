@@ -1,0 +1,18 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(var(--col,10),35px);
+  grid-template-rows: repeat(var(--rows,10),35px);
+  gap: 2px;
+
+  }
+
+  .boxes{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  .selected{
+    background-color: aqua;
+  }
